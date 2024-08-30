@@ -1,6 +1,6 @@
 variable "resource_group_name" {
   description = "The name of the resource group in which the resources are created."
-  default     = "rgterra1"
+  default     = "rg"
 }
 
 variable "location" {
@@ -10,12 +10,12 @@ variable "location" {
 
 variable "aks_cluster_name" {
   description = "The name of the AKS cluster."
-  default     = "akstf"
+  default     = "akstf1"
 }
 
 variable "dns_prefix" {
   description = "The DNS prefix for the AKS cluster."
-  default     = "exampleaks3"
+  default     = "exampleaks4"
 }
 
 
